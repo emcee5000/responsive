@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif);
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
+
+body {
+}
+
+.navbar-inner { 
+    background-image: url('../img/navBackground.png');
+    background-repeat: repeat-y;
+    background-color: #7B1D01;
+    color: #fff;
+    font-family: Arial;
+    filter: none;
+    border: none;
+    box-shadow: none;
+    padding: 5px 0;    
+    
+}
+
+
+.navbar .nav > li > a {
+    color: #fff;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    text-transform: uppercase;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+    color: #ccc;
+}
+
+.navbar .nav .active a:hover {
+    background: none;
+    background-color: #7B1D01;
+    color: #fff;
+}
+
+.navbar .nav .active a {
+    background: none;
+    background-color: #7B1D01;
+    color: #fff;
+}
+
+/*
+.navbar .nav .divider-vertical {
+    border-left: 1px solid #7a1e01;
+    border-right: 1px solid #661a02;
+}
+
+   */
